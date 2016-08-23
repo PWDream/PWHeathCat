@@ -7,64 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607632BC1D6C40AD008CB0C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607632BB1D6C40AD008CB0C7 /* AppDelegate.swift */; };
-		607632BE1D6C40AD008CB0C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607632BD1D6C40AD008CB0C7 /* ViewController.swift */; };
-		607632C11D6C40AD008CB0C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607632BF1D6C40AD008CB0C7 /* Main.storyboard */; };
-		607632C31D6C40AD008CB0C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607632C21D6C40AD008CB0C7 /* Assets.xcassets */; };
-		607632C61D6C40AD008CB0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607632C41D6C40AD008CB0C7 /* LaunchScreen.storyboard */; };
-		607632D11D6C40AD008CB0C7 /* PWHealthCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607632D01D6C40AD008CB0C7 /* PWHealthCatTests.swift */; };
-		607632DC1D6C40AD008CB0C7 /* PWHealthCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607632DB1D6C40AD008CB0C7 /* PWHealthCatUITests.swift */; };
+		49D49E622228675AEBAC9790 /* Pods_PWHealthCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C19B30BCAAF34A42F51E39 /* Pods_PWHealthCat.framework */; };
+		609B995E1D6C4B2100659E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B995D1D6C4B2100659E1A /* AppDelegate.swift */; };
+		609B99601D6C4B2100659E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B995F1D6C4B2100659E1A /* ViewController.swift */; };
+		609B99631D6C4B2100659E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609B99611D6C4B2100659E1A /* Main.storyboard */; };
+		609B99651D6C4B2100659E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609B99641D6C4B2100659E1A /* Assets.xcassets */; };
+		609B99681D6C4B2100659E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609B99661D6C4B2100659E1A /* LaunchScreen.storyboard */; };
+		609B99731D6C4B2100659E1A /* PWHealthCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B99721D6C4B2100659E1A /* PWHealthCatTests.swift */; };
+		609B997E1D6C4B2100659E1A /* PWHealthCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B997D1D6C4B2100659E1A /* PWHealthCatUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607632CD1D6C40AD008CB0C7 /* PBXContainerItemProxy */ = {
+		609B996F1D6C4B2100659E1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 607632B01D6C40AD008CB0C7 /* Project object */;
+			containerPortal = 609B99521D6C4B2000659E1A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 607632B71D6C40AD008CB0C7;
+			remoteGlobalIDString = 609B99591D6C4B2100659E1A;
 			remoteInfo = PWHealthCat;
 		};
-		607632D81D6C40AD008CB0C7 /* PBXContainerItemProxy */ = {
+		609B997A1D6C4B2100659E1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 607632B01D6C40AD008CB0C7 /* Project object */;
+			containerPortal = 609B99521D6C4B2000659E1A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 607632B71D6C40AD008CB0C7;
+			remoteGlobalIDString = 609B99591D6C4B2100659E1A;
 			remoteInfo = PWHealthCat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		607632B81D6C40AD008CB0C7 /* PWHealthCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWHealthCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607632BB1D6C40AD008CB0C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607632BD1D6C40AD008CB0C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607632C01D6C40AD008CB0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607632C21D6C40AD008CB0C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		607632C51D6C40AD008CB0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		607632C71D6C40AD008CB0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607632CC1D6C40AD008CB0C7 /* PWHealthCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWHealthCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607632D01D6C40AD008CB0C7 /* PWHealthCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWHealthCatTests.swift; sourceTree = "<group>"; };
-		607632D21D6C40AD008CB0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607632D71D6C40AD008CB0C7 /* PWHealthCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWHealthCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607632DB1D6C40AD008CB0C7 /* PWHealthCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWHealthCatUITests.swift; sourceTree = "<group>"; };
-		607632DD1D6C40AD008CB0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409544594500AB4CEDF581FD /* Pods-PWHealthCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWHealthCat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PWHealthCat/Pods-PWHealthCat.debug.xcconfig"; sourceTree = "<group>"; };
+		609B995A1D6C4B2100659E1A /* PWHealthCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWHealthCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		609B995D1D6C4B2100659E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		609B995F1D6C4B2100659E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		609B99621D6C4B2100659E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		609B99641D6C4B2100659E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		609B99671D6C4B2100659E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		609B99691D6C4B2100659E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609B996E1D6C4B2100659E1A /* PWHealthCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWHealthCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		609B99721D6C4B2100659E1A /* PWHealthCatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWHealthCatTests.swift; sourceTree = "<group>"; };
+		609B99741D6C4B2100659E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609B99791D6C4B2100659E1A /* PWHealthCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWHealthCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		609B997D1D6C4B2100659E1A /* PWHealthCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWHealthCatUITests.swift; sourceTree = "<group>"; };
+		609B997F1D6C4B2100659E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C19B30BCAAF34A42F51E39 /* Pods_PWHealthCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWHealthCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50C32463EBC6DAB66F18E67 /* Pods-PWHealthCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWHealthCat.release.xcconfig"; path = "Pods/Target Support Files/Pods-PWHealthCat/Pods-PWHealthCat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607632B51D6C40AD008CB0C7 /* Frameworks */ = {
+		609B99571D6C4B2100659E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D49E622228675AEBAC9790 /* Pods_PWHealthCat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609B996B1D6C4B2100659E1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607632C91D6C40AD008CB0C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607632D41D6C40AD008CB0C7 /* Frameworks */ = {
+		609B99761D6C4B2100659E1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,67 +79,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		607632AF1D6C40AD008CB0C7 = {
+		609B99511D6C4B2000659E1A = {
 			isa = PBXGroup;
 			children = (
-				607632BA1D6C40AD008CB0C7 /* PWHealthCat */,
-				607632CF1D6C40AD008CB0C7 /* PWHealthCatTests */,
-				607632DA1D6C40AD008CB0C7 /* PWHealthCatUITests */,
-				607632B91D6C40AD008CB0C7 /* Products */,
+				609B995C1D6C4B2100659E1A /* PWHealthCat */,
+				609B99711D6C4B2100659E1A /* PWHealthCatTests */,
+				609B997C1D6C4B2100659E1A /* PWHealthCatUITests */,
+				609B995B1D6C4B2100659E1A /* Products */,
+				A40088C4C0E263EC76DC0826 /* Pods */,
+				9D7F3DB2364FE0C1A6333815 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		607632B91D6C40AD008CB0C7 /* Products */ = {
+		609B995B1D6C4B2100659E1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607632B81D6C40AD008CB0C7 /* PWHealthCat.app */,
-				607632CC1D6C40AD008CB0C7 /* PWHealthCatTests.xctest */,
-				607632D71D6C40AD008CB0C7 /* PWHealthCatUITests.xctest */,
+				609B995A1D6C4B2100659E1A /* PWHealthCat.app */,
+				609B996E1D6C4B2100659E1A /* PWHealthCatTests.xctest */,
+				609B99791D6C4B2100659E1A /* PWHealthCatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607632BA1D6C40AD008CB0C7 /* PWHealthCat */ = {
+		609B995C1D6C4B2100659E1A /* PWHealthCat */ = {
 			isa = PBXGroup;
 			children = (
-				607632BB1D6C40AD008CB0C7 /* AppDelegate.swift */,
-				607632BD1D6C40AD008CB0C7 /* ViewController.swift */,
-				607632BF1D6C40AD008CB0C7 /* Main.storyboard */,
-				607632C21D6C40AD008CB0C7 /* Assets.xcassets */,
-				607632C41D6C40AD008CB0C7 /* LaunchScreen.storyboard */,
-				607632C71D6C40AD008CB0C7 /* Info.plist */,
+				609B995D1D6C4B2100659E1A /* AppDelegate.swift */,
+				609B995F1D6C4B2100659E1A /* ViewController.swift */,
+				609B99611D6C4B2100659E1A /* Main.storyboard */,
+				609B99641D6C4B2100659E1A /* Assets.xcassets */,
+				609B99661D6C4B2100659E1A /* LaunchScreen.storyboard */,
+				609B99691D6C4B2100659E1A /* Info.plist */,
 			);
 			path = PWHealthCat;
 			sourceTree = "<group>";
 		};
-		607632CF1D6C40AD008CB0C7 /* PWHealthCatTests */ = {
+		609B99711D6C4B2100659E1A /* PWHealthCatTests */ = {
 			isa = PBXGroup;
 			children = (
-				607632D01D6C40AD008CB0C7 /* PWHealthCatTests.swift */,
-				607632D21D6C40AD008CB0C7 /* Info.plist */,
+				609B99721D6C4B2100659E1A /* PWHealthCatTests.swift */,
+				609B99741D6C4B2100659E1A /* Info.plist */,
 			);
 			path = PWHealthCatTests;
 			sourceTree = "<group>";
 		};
-		607632DA1D6C40AD008CB0C7 /* PWHealthCatUITests */ = {
+		609B997C1D6C4B2100659E1A /* PWHealthCatUITests */ = {
 			isa = PBXGroup;
 			children = (
-				607632DB1D6C40AD008CB0C7 /* PWHealthCatUITests.swift */,
-				607632DD1D6C40AD008CB0C7 /* Info.plist */,
+				609B997D1D6C4B2100659E1A /* PWHealthCatUITests.swift */,
+				609B997F1D6C4B2100659E1A /* Info.plist */,
 			);
 			path = PWHealthCatUITests;
+			sourceTree = "<group>";
+		};
+		9D7F3DB2364FE0C1A6333815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81C19B30BCAAF34A42F51E39 /* Pods_PWHealthCat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40088C4C0E263EC76DC0826 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				409544594500AB4CEDF581FD /* Pods-PWHealthCat.debug.xcconfig */,
+				C50C32463EBC6DAB66F18E67 /* Pods-PWHealthCat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607632B71D6C40AD008CB0C7 /* PWHealthCat */ = {
+		609B99591D6C4B2100659E1A /* PWHealthCat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607632E01D6C40AD008CB0C7 /* Build configuration list for PBXNativeTarget "PWHealthCat" */;
+			buildConfigurationList = 609B99821D6C4B2100659E1A /* Build configuration list for PBXNativeTarget "PWHealthCat" */;
 			buildPhases = (
-				607632B41D6C40AD008CB0C7 /* Sources */,
-				607632B51D6C40AD008CB0C7 /* Frameworks */,
-				607632B61D6C40AD008CB0C7 /* Resources */,
+				5E8BCDAE0C9E29F246D4D1D7 /* Check Pods Manifest.lock */,
+				609B99561D6C4B2100659E1A /* Sources */,
+				609B99571D6C4B2100659E1A /* Frameworks */,
+				609B99581D6C4B2100659E1A /* Resources */,
+				99B1BEA40E03D7EA548C442F /* Embed Pods Frameworks */,
+				8BBAC3412A887B20275B7F1C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,75 +169,69 @@
 			);
 			name = PWHealthCat;
 			productName = PWHealthCat;
-			productReference = 607632B81D6C40AD008CB0C7 /* PWHealthCat.app */;
+			productReference = 609B995A1D6C4B2100659E1A /* PWHealthCat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607632CB1D6C40AD008CB0C7 /* PWHealthCatTests */ = {
+		609B996D1D6C4B2100659E1A /* PWHealthCatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607632E31D6C40AD008CB0C7 /* Build configuration list for PBXNativeTarget "PWHealthCatTests" */;
+			buildConfigurationList = 609B99851D6C4B2100659E1A /* Build configuration list for PBXNativeTarget "PWHealthCatTests" */;
 			buildPhases = (
-				607632C81D6C40AD008CB0C7 /* Sources */,
-				607632C91D6C40AD008CB0C7 /* Frameworks */,
-				607632CA1D6C40AD008CB0C7 /* Resources */,
+				609B996A1D6C4B2100659E1A /* Sources */,
+				609B996B1D6C4B2100659E1A /* Frameworks */,
+				609B996C1D6C4B2100659E1A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607632CE1D6C40AD008CB0C7 /* PBXTargetDependency */,
+				609B99701D6C4B2100659E1A /* PBXTargetDependency */,
 			);
 			name = PWHealthCatTests;
 			productName = PWHealthCatTests;
-			productReference = 607632CC1D6C40AD008CB0C7 /* PWHealthCatTests.xctest */;
+			productReference = 609B996E1D6C4B2100659E1A /* PWHealthCatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		607632D61D6C40AD008CB0C7 /* PWHealthCatUITests */ = {
+		609B99781D6C4B2100659E1A /* PWHealthCatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607632E61D6C40AD008CB0C7 /* Build configuration list for PBXNativeTarget "PWHealthCatUITests" */;
+			buildConfigurationList = 609B99881D6C4B2100659E1A /* Build configuration list for PBXNativeTarget "PWHealthCatUITests" */;
 			buildPhases = (
-				607632D31D6C40AD008CB0C7 /* Sources */,
-				607632D41D6C40AD008CB0C7 /* Frameworks */,
-				607632D51D6C40AD008CB0C7 /* Resources */,
+				609B99751D6C4B2100659E1A /* Sources */,
+				609B99761D6C4B2100659E1A /* Frameworks */,
+				609B99771D6C4B2100659E1A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607632D91D6C40AD008CB0C7 /* PBXTargetDependency */,
+				609B997B1D6C4B2100659E1A /* PBXTargetDependency */,
 			);
 			name = PWHealthCatUITests;
 			productName = PWHealthCatUITests;
-			productReference = 607632D71D6C40AD008CB0C7 /* PWHealthCatUITests.xctest */;
+			productReference = 609B99791D6C4B2100659E1A /* PWHealthCatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		607632B01D6C40AD008CB0C7 /* Project object */ = {
+		609B99521D6C4B2000659E1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "潘威";
 				TargetAttributes = {
-					607632B71D6C40AD008CB0C7 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = AQUT8GSK4H;
-						ProvisioningStyle = Automatic;
+					609B99591D6C4B2100659E1A = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
-					607632CB1D6C40AD008CB0C7 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = AQUT8GSK4H;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 607632B71D6C40AD008CB0C7;
+					609B996D1D6C4B2100659E1A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 609B99591D6C4B2100659E1A;
 					};
-					607632D61D6C40AD008CB0C7 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = AQUT8GSK4H;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 607632B71D6C40AD008CB0C7;
+					609B99781D6C4B2100659E1A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 609B99591D6C4B2100659E1A;
 					};
 				};
 			};
-			buildConfigurationList = 607632B31D6C40AD008CB0C7 /* Build configuration list for PBXProject "PWHealthCat" */;
+			buildConfigurationList = 609B99551D6C4B2000659E1A /* Build configuration list for PBXProject "PWHealthCat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,37 +239,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 607632AF1D6C40AD008CB0C7;
-			productRefGroup = 607632B91D6C40AD008CB0C7 /* Products */;
+			mainGroup = 609B99511D6C4B2000659E1A;
+			productRefGroup = 609B995B1D6C4B2100659E1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607632B71D6C40AD008CB0C7 /* PWHealthCat */,
-				607632CB1D6C40AD008CB0C7 /* PWHealthCatTests */,
-				607632D61D6C40AD008CB0C7 /* PWHealthCatUITests */,
+				609B99591D6C4B2100659E1A /* PWHealthCat */,
+				609B996D1D6C4B2100659E1A /* PWHealthCatTests */,
+				609B99781D6C4B2100659E1A /* PWHealthCatUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607632B61D6C40AD008CB0C7 /* Resources */ = {
+		609B99581D6C4B2100659E1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607632C61D6C40AD008CB0C7 /* LaunchScreen.storyboard in Resources */,
-				607632C31D6C40AD008CB0C7 /* Assets.xcassets in Resources */,
-				607632C11D6C40AD008CB0C7 /* Main.storyboard in Resources */,
+				609B99681D6C4B2100659E1A /* LaunchScreen.storyboard in Resources */,
+				609B99651D6C4B2100659E1A /* Assets.xcassets in Resources */,
+				609B99631D6C4B2100659E1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607632CA1D6C40AD008CB0C7 /* Resources */ = {
+		609B996C1D6C4B2100659E1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607632D51D6C40AD008CB0C7 /* Resources */ = {
+		609B99771D6C4B2100659E1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,60 +278,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E8BCDAE0C9E29F246D4D1D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBAC3412A887B20275B7F1C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PWHealthCat/Pods-PWHealthCat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99B1BEA40E03D7EA548C442F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PWHealthCat/Pods-PWHealthCat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		607632B41D6C40AD008CB0C7 /* Sources */ = {
+		609B99561D6C4B2100659E1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607632BE1D6C40AD008CB0C7 /* ViewController.swift in Sources */,
-				607632BC1D6C40AD008CB0C7 /* AppDelegate.swift in Sources */,
+				609B99601D6C4B2100659E1A /* ViewController.swift in Sources */,
+				609B995E1D6C4B2100659E1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607632C81D6C40AD008CB0C7 /* Sources */ = {
+		609B996A1D6C4B2100659E1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607632D11D6C40AD008CB0C7 /* PWHealthCatTests.swift in Sources */,
+				609B99731D6C4B2100659E1A /* PWHealthCatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607632D31D6C40AD008CB0C7 /* Sources */ = {
+		609B99751D6C4B2100659E1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607632DC1D6C40AD008CB0C7 /* PWHealthCatUITests.swift in Sources */,
+				609B997E1D6C4B2100659E1A /* PWHealthCatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607632CE1D6C40AD008CB0C7 /* PBXTargetDependency */ = {
+		609B99701D6C4B2100659E1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607632B71D6C40AD008CB0C7 /* PWHealthCat */;
-			targetProxy = 607632CD1D6C40AD008CB0C7 /* PBXContainerItemProxy */;
+			target = 609B99591D6C4B2100659E1A /* PWHealthCat */;
+			targetProxy = 609B996F1D6C4B2100659E1A /* PBXContainerItemProxy */;
 		};
-		607632D91D6C40AD008CB0C7 /* PBXTargetDependency */ = {
+		609B997B1D6C4B2100659E1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607632B71D6C40AD008CB0C7 /* PWHealthCat */;
-			targetProxy = 607632D81D6C40AD008CB0C7 /* PBXContainerItemProxy */;
+			target = 609B99591D6C4B2100659E1A /* PWHealthCat */;
+			targetProxy = 609B997A1D6C4B2100659E1A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607632BF1D6C40AD008CB0C7 /* Main.storyboard */ = {
+		609B99611D6C4B2100659E1A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607632C01D6C40AD008CB0C7 /* Base */,
+				609B99621D6C4B2100659E1A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607632C41D6C40AD008CB0C7 /* LaunchScreen.storyboard */ = {
+		609B99661D6C4B2100659E1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607632C51D6C40AD008CB0C7 /* Base */,
+				609B99671D6C4B2100659E1A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -318,7 +387,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		607632DE1D6C40AD008CB0C7 /* Debug */ = {
+		609B99801D6C4B2100659E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,13 +399,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -358,16 +424,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		607632DF1D6C40AD008CB0C7 /* Release */ = {
+		609B99811D6C4B2100659E1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,13 +444,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -401,94 +463,79 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		607632E11D6C40AD008CB0C7 /* Debug */ = {
+		609B99831D6C4B2100659E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409544594500AB4CEDF581FD /* Pods-PWHealthCat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AQUT8GSK4H;
 				INFOPLIST_FILE = PWHealthCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PW.PWHealthCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		607632E21D6C40AD008CB0C7 /* Release */ = {
+		609B99841D6C4B2100659E1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50C32463EBC6DAB66F18E67 /* Pods-PWHealthCat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AQUT8GSK4H;
 				INFOPLIST_FILE = PWHealthCat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PW.PWHealthCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		607632E41D6C40AD008CB0C7 /* Debug */ = {
+		609B99861D6C4B2100659E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = AQUT8GSK4H;
 				INFOPLIST_FILE = PWHealthCatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PW.PWHealthCatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PWHealthCat.app/PWHealthCat";
 			};
 			name = Debug;
 		};
-		607632E51D6C40AD008CB0C7 /* Release */ = {
+		609B99871D6C4B2100659E1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = AQUT8GSK4H;
 				INFOPLIST_FILE = PWHealthCatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PW.PWHealthCatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PWHealthCat.app/PWHealthCat";
 			};
 			name = Release;
 		};
-		607632E71D6C40AD008CB0C7 /* Debug */ = {
+		609B99891D6C4B2100659E1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = AQUT8GSK4H;
 				INFOPLIST_FILE = PWHealthCatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PW.PWHealthCatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = PWHealthCat;
 			};
 			name = Debug;
 		};
-		607632E81D6C40AD008CB0C7 /* Release */ = {
+		609B998A1D6C4B2100659E1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = AQUT8GSK4H;
 				INFOPLIST_FILE = PWHealthCatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PW.PWHealthCatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = PWHealthCat;
 			};
 			name = Release;
@@ -496,40 +543,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607632B31D6C40AD008CB0C7 /* Build configuration list for PBXProject "PWHealthCat" */ = {
+		609B99551D6C4B2000659E1A /* Build configuration list for PBXProject "PWHealthCat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607632DE1D6C40AD008CB0C7 /* Debug */,
-				607632DF1D6C40AD008CB0C7 /* Release */,
+				609B99801D6C4B2100659E1A /* Debug */,
+				609B99811D6C4B2100659E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607632E01D6C40AD008CB0C7 /* Build configuration list for PBXNativeTarget "PWHealthCat" */ = {
+		609B99821D6C4B2100659E1A /* Build configuration list for PBXNativeTarget "PWHealthCat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607632E11D6C40AD008CB0C7 /* Debug */,
-				607632E21D6C40AD008CB0C7 /* Release */,
+				609B99831D6C4B2100659E1A /* Debug */,
+				609B99841D6C4B2100659E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		607632E31D6C40AD008CB0C7 /* Build configuration list for PBXNativeTarget "PWHealthCatTests" */ = {
+		609B99851D6C4B2100659E1A /* Build configuration list for PBXNativeTarget "PWHealthCatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607632E41D6C40AD008CB0C7 /* Debug */,
-				607632E51D6C40AD008CB0C7 /* Release */,
+				609B99861D6C4B2100659E1A /* Debug */,
+				609B99871D6C4B2100659E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		607632E61D6C40AD008CB0C7 /* Build configuration list for PBXNativeTarget "PWHealthCatUITests" */ = {
+		609B99881D6C4B2100659E1A /* Build configuration list for PBXNativeTarget "PWHealthCatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607632E71D6C40AD008CB0C7 /* Debug */,
-				607632E81D6C40AD008CB0C7 /* Release */,
+				609B99891D6C4B2100659E1A /* Debug */,
+				609B998A1D6C4B2100659E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 607632B01D6C40AD008CB0C7 /* Project object */;
+	rootObject = 609B99521D6C4B2000659E1A /* Project object */;
 }

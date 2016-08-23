@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607632B71D6C40AD008CB0C7"
+               BlueprintIdentifier = "609B99591D6C4B2100659E1A"
                BuildableName = "PWHealthCat.app"
                BlueprintName = "PWHealthCat"
                ReferencedContainer = "container:PWHealthCat.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607632CB1D6C40AD008CB0C7"
+               BlueprintIdentifier = "609B996D1D6C4B2100659E1A"
                BuildableName = "PWHealthCatTests.xctest"
                BlueprintName = "PWHealthCatTests"
                ReferencedContainer = "container:PWHealthCat.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607632D61D6C40AD008CB0C7"
+               BlueprintIdentifier = "609B99781D6C4B2100659E1A"
                BuildableName = "PWHealthCatUITests.xctest"
                BlueprintName = "PWHealthCatUITests"
                ReferencedContainer = "container:PWHealthCat.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607632B71D6C40AD008CB0C7"
+            BlueprintIdentifier = "609B99591D6C4B2100659E1A"
             BuildableName = "PWHealthCat.app"
             BlueprintName = "PWHealthCat"
             ReferencedContainer = "container:PWHealthCat.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607632B71D6C40AD008CB0C7"
+            BlueprintIdentifier = "609B99591D6C4B2100659E1A"
             BuildableName = "PWHealthCat.app"
             BlueprintName = "PWHealthCat"
             ReferencedContainer = "container:PWHealthCat.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607632B71D6C40AD008CB0C7"
+            BlueprintIdentifier = "609B99591D6C4B2100659E1A"
             BuildableName = "PWHealthCat.app"
             BlueprintName = "PWHealthCat"
             ReferencedContainer = "container:PWHealthCat.xcodeproj">

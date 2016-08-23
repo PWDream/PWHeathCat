@@ -4,25 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PWHealthCat.xcscheme</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PWHealthCat.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>609B99591D6C4B2100659E1A</key>
+		<key>33799B156C4A28AFA4E820E33850AE3A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>609B996D1D6C4B2100659E1A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>609B99781D6C4B2100659E1A</key>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
